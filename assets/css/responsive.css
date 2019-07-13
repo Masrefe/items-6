@@ -1,0 +1,63 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Medium layout: 1200px, */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+
+}
+
+/* Tablet layout: 768px, */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+.contact-form input[type="text"], input[type="email"], input[type="url"] {
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+.contact-form textarea {
+	margin-top: 0;
+}
+
+}
+
+/* Mobile layout: 320px, */
+@media only screen and (max-width:767px)  {
+
+.hero-form input[type="email"]{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.hero-form input[type="submit"] {
+	width: 100%;
+	border-radius: 0;
+	margin-left:0;
+}
+
+.portfolio li {
+	padding: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.single-pricing-box {
+	margin-bottom: 30px;
+}
+.contact-form input[type="text"], input[type="email"], input[type="url"] {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.contact-form textarea {
+	margin-top: 0;
+}
+
+.footer-left {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.social-area {
+  text-align: center;
+}
+}
+/* wide mobile layout: 480px, */
+@media only screen and (min-width:480px) and (max-width: 767px) {
+
+}

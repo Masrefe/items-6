@@ -1,0 +1,32 @@
+
+.barfiller {
+    width:100%;
+    height:15px;
+    background:#171717;
+    position:relative;
+    margin-bottom:20px;
+}
+
+.barfiller .fill {
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#fff;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+.barfiller .tip {
+    margin-top: -34px;
+    padding:0 4px;
+    font-size: 18px;
+    color: #fff;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    left: auto !important;
+    right: 0;
+}
